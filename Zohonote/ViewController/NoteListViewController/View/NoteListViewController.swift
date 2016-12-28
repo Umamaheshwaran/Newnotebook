@@ -77,7 +77,6 @@ class NoteListViewController: UIBaseViewController,NotesListDelegate,UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotesListTableViewCell", for: indexPath) as! NotesListTableViewCell
         
         cell.selectionStyle = .none
-        
         if  let nonNilModel = viewModel.getNotes(atIndex: indexPath.row)
         {
             cell.loadCell(nonNilModel)

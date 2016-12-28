@@ -368,7 +368,7 @@
 				TargetAttributes = {
 					183826BD1E0D7E47006C15BA = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = TJLT9X4GT8;
+						DevelopmentTeam = 3A62AD35L8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -555,7 +555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TJLT9X4GT8;
+				DEVELOPMENT_TEAM = 3A62AD35L8;
 				INFOPLIST_FILE = Zohonote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Zohonote;
@@ -568,7 +568,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TJLT9X4GT8;
+				DEVELOPMENT_TEAM = 3A62AD35L8;
 				INFOPLIST_FILE = Zohonote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Zohonote;

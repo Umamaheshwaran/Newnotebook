@@ -41,5 +41,9 @@ class NotesListTableViewCell: UITableViewCell {
             
             self.imgView?.image = image
         }
+        else{
+            self.imgView?.image = UIImage()
+
+        }
     }
 }
