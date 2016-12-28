@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183826C21E0D7E47006C15BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183826C11E0D7E47006C15BA /* AppDelegate.swift */; };
+		183826C71E0D7E47006C15BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183826C51E0D7E47006C15BA /* Main.storyboard */; };
+		183826CA1E0D7E47006C15BA /* Zohonote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183826C81E0D7E47006C15BA /* Zohonote.xcdatamodeld */; };
+		183826CC1E0D7E47006C15BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183826CB1E0D7E47006C15BA /* Assets.xcassets */; };
+		183826CF1E0D7E47006C15BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183826CD1E0D7E47006C15BA /* LaunchScreen.storyboard */; };
+		183826DD1E0D7F6D006C15BA /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183826DC1E0D7F6D006C15BA /* DashBoardViewController.swift */; };
+		183826E21E0D90DE006C15BA /* NewNotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183826E11E0D90DE006C15BA /* NewNotebookViewController.swift */; };
+		184C21CA1E0FB44B0013FB0C /* NewNotebooksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21C91E0FB44B0013FB0C /* NewNotebooksVM.swift */; };
+		184C21CC1E0FB6CD0013FB0C /* NewNoteBooksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21CB1E0FB6CD0013FB0C /* NewNoteBooksVM.swift */; };
+		184C21CE1E0FB74A0013FB0C /* NewNoteBooksVMDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21CD1E0FB74A0013FB0C /* NewNoteBooksVMDelegate.swift */; };
+		184C21D21E0FCB3D0013FB0C /* NewNoteBookdataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21D11E0FCB3D0013FB0C /* NewNoteBookdataService.swift */; };
+		184C21D41E0FCFD00013FB0C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21D31E0FCFD00013FB0C /* Utility.swift */; };
+		184C21D61E0FF7430013FB0C /* NotebooksDashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21D51E0FF7430013FB0C /* NotebooksDashboardVM.swift */; };
+		184C21D81E0FFB7E0013FB0C /* NotebooksDashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21D71E0FFB7E0013FB0C /* NotebooksDashboardModel.swift */; };
+		184C21DA1E1001B40013FB0C /* NotebooksdashboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21D91E1001B40013FB0C /* NotebooksdashboardDelegate.swift */; };
+		184C21DD1E10096A0013FB0C /* NotesDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21DC1E10096A0013FB0C /* NotesDataService.swift */; };
+		184C21DF1E10125B0013FB0C /* NotesListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21DE1E10125B0013FB0C /* NotesListVM.swift */; };
+		184C21E11E1012710013FB0C /* NotesListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21E01E1012710013FB0C /* NotesListDelegate.swift */; };
+		184C21E31E1015190013FB0C /* NewNoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21E21E1015190013FB0C /* NewNoteModel.swift */; };
+		184C21E51E1017540013FB0C /* NewNoteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21E41E1017540013FB0C /* NewNoteVM.swift */; };
+		184C21E91E1188A30013FB0C /* EnumFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21E81E1188A30013FB0C /* EnumFile.swift */; };
+		184C21EB1E1188CB0013FB0C /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C21EA1E1188CB0013FB0C /* ExtensionFile.swift */; };
+		18CF28E81E0E33BD00616321 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF28E71E0E33BD00616321 /* NoteListViewController.swift */; };
+		18CF28EC1E0E340600616321 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF28EB1E0E340600616321 /* NewNoteViewController.swift */; };
+		18CF28F61E0E821E00616321 /* location_map_pin_light_green6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CF28F51E0E821E00616321 /* location_map_pin_light_green6.png */; };
+		18CF28FB1E0E875B00616321 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF28FA1E0E875B00616321 /* MapViewViewController.swift */; };
+		DF70D1A01E10DF52003B4317 /* NotesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D19F1E10DF52003B4317 /* NotesListTableViewCell.swift */; };
+		DF70D1A21E115C10003B4317 /* UIBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70D1A11E115C10003B4317 /* UIBaseViewController.swift */; };
+		DF7B51C81E12501300E462BE /* StructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B51C71E12501300E462BE /* StructFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183826BE1E0D7E47006C15BA /* Zohonote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zohonote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183826C11E0D7E47006C15BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Zohonote/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		183826C61E0D7E47006C15BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183826C91E0D7E47006C15BA /* Zohonote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zohonote.xcdatamodel; sourceTree = "<group>"; };
+		183826CB1E0D7E47006C15BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183826CE1E0D7E47006C15BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183826D01E0D7E47006C15BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183826DC1E0D7F6D006C15BA /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		183826E11E0D90DE006C15BA /* NewNotebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNotebookViewController.swift; sourceTree = "<group>"; };
+		184C21C91E0FB44B0013FB0C /* NewNotebooksVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNotebooksVM.swift; sourceTree = "<group>"; };
+		184C21CB1E0FB6CD0013FB0C /* NewNoteBooksVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteBooksVM.swift; sourceTree = "<group>"; };
+		184C21CD1E0FB74A0013FB0C /* NewNoteBooksVMDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteBooksVMDelegate.swift; sourceTree = "<group>"; };
+		184C21D11E0FCB3D0013FB0C /* NewNoteBookdataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteBookdataService.swift; sourceTree = "<group>"; };
+		184C21D31E0FCFD00013FB0C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		184C21D51E0FF7430013FB0C /* NotebooksDashboardVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksDashboardVM.swift; sourceTree = "<group>"; };
+		184C21D71E0FFB7E0013FB0C /* NotebooksDashboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksDashboardModel.swift; sourceTree = "<group>"; };
+		184C21D91E1001B40013FB0C /* NotebooksdashboardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksdashboardDelegate.swift; sourceTree = "<group>"; };
+		184C21DC1E10096A0013FB0C /* NotesDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesDataService.swift; sourceTree = "<group>"; };
+		184C21DE1E10125B0013FB0C /* NotesListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesListVM.swift; sourceTree = "<group>"; };
+		184C21E01E1012710013FB0C /* NotesListDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesListDelegate.swift; sourceTree = "<group>"; };
+		184C21E21E1015190013FB0C /* NewNoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteModel.swift; sourceTree = "<group>"; };
+		184C21E41E1017540013FB0C /* NewNoteVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteVM.swift; sourceTree = "<group>"; };
+		184C21E81E1188A30013FB0C /* EnumFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumFile.swift; sourceTree = "<group>"; };
+		184C21EA1E1188CB0013FB0C /* ExtensionFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
+		18CF28E71E0E33BD00616321 /* NoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
+		18CF28EB1E0E340600616321 /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		18CF28F51E0E821E00616321 /* location_map_pin_light_green6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_map_pin_light_green6.png; sourceTree = "<group>"; };
+		18CF28FA1E0E875B00616321 /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		DF70D19F1E10DF52003B4317 /* NotesListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesListTableViewCell.swift; sourceTree = "<group>"; };
+		DF70D1A11E115C10003B4317 /* UIBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBaseViewController.swift; sourceTree = "<group>"; };
+		DF7B51C71E12501300E462BE /* StructFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183826BB1E0D7E47006C15BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183826B51E0D7E47006C15BA = {
+			isa = PBXGroup;
+			children = (
+				183826C01E0D7E47006C15BA /* Zohonote */,
+				183826BF1E0D7E47006C15BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183826BF1E0D7E47006C15BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183826BE1E0D7E47006C15BA /* Zohonote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183826C01E0D7E47006C15BA /* Zohonote */ = {
+			isa = PBXGroup;
+			children = (
+				183826D61E0D7EEA006C15BA /* AppDelegate */,
+				183826D71E0D7EEA006C15BA /* Common */,
+				183826D81E0D7EEA006C15BA /* ViewController */,
+				183826C51E0D7E47006C15BA /* Main.storyboard */,
+				183826CB1E0D7E47006C15BA /* Assets.xcassets */,
+				183826CD1E0D7E47006C15BA /* LaunchScreen.storyboard */,
+				183826D01E0D7E47006C15BA /* Info.plist */,
+				183826C81E0D7E47006C15BA /* Zohonote.xcdatamodeld */,
+			);
+			path = Zohonote;
+			sourceTree = "<group>";
+		};
+		183826D61E0D7EEA006C15BA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				183826C11E0D7E47006C15BA /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		183826D71E0D7EEA006C15BA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B51C61E12500400E462BE /* Struct */,
+				184C21E71E1188880013FB0C /* Enum */,
+				184C21E61E11887A0013FB0C /* Extension */,
+				184C21CF1E0FCB080013FB0C /* CoredataModel */,
+				184C21C61E0FB24D0013FB0C /* Model */,
+				18CF28F51E0E821E00616321 /* location_map_pin_light_green6.png */,
+				184C21D31E0FCFD00013FB0C /* Utility.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		183826D81E0D7EEA006C15BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				183826DE1E0D8E66006C15BA /* NewNoteBookView */,
+				183826D91E0D7F45006C15BA /* DashboardView */,
+				18CF28E41E0E336000616321 /* NoteListViewController */,
+				18CF28E11E0E336000616321 /* NewNoteView */,
+				18CF28F71E0E874100616321 /* MapView */,
+				DF70D1A11E115C10003B4317 /* UIBaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		183826D91E0D7F45006C15BA /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				183826DB1E0D7F45006C15BA /* View */,
+				183826DA1E0D7F45006C15BA /* Model */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		183826DA1E0D7F45006C15BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				184C21D51E0FF7430013FB0C /* NotebooksDashboardVM.swift */,
+				184C21D91E1001B40013FB0C /* NotebooksdashboardDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		183826DB1E0D7F45006C15BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183826DC1E0D7F6D006C15BA /* DashBoardViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183826DE1E0D8E66006C15BA /* NewNoteBookView */ = {
+			isa = PBXGroup;
+			children = (
+				183826DF1E0D8E66006C15BA /* View */,
+				183826E01E0D8E66006C15BA /* ViewModel */,
+			);
+			path = NewNoteBookView;
+			sourceTree = "<group>";
+		};
+		183826DF1E0D8E66006C15BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183826E11E0D90DE006C15BA /* NewNotebookViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183826E01E0D8E66006C15BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				184C21CB1E0FB6CD0013FB0C /* NewNoteBooksVM.swift */,
+				184C21CD1E0FB74A0013FB0C /* NewNoteBooksVMDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		184C21C61E0FB24D0013FB0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				184C21C91E0FB44B0013FB0C /* NewNotebooksVM.swift */,
+				184C21D71E0FFB7E0013FB0C /* NotebooksDashboardModel.swift */,
+				184C21E21E1015190013FB0C /* NewNoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184C21CF1E0FCB080013FB0C /* CoredataModel */ = {
+			isa = PBXGroup;
+			children = (
+				184C21DB1E1009440013FB0C /* NewNotesDataService */,
+				184C21D01E0FCB080013FB0C /* NewNoteBooksDataService */,
+			);
+			path = CoredataModel;
+			sourceTree = "<group>";
+		};
+		184C21D01E0FCB080013FB0C /* NewNoteBooksDataService */ = {
+			isa = PBXGroup;
+			children = (
+				184C21D11E0FCB3D0013FB0C /* NewNoteBookdataService.swift */,
+			);
+			path = NewNoteBooksDataService;
+			sourceTree = "<group>";
+		};
+		184C21DB1E1009440013FB0C /* NewNotesDataService */ = {
+			isa = PBXGroup;
+			children = (
+				184C21DC1E10096A0013FB0C /* NotesDataService.swift */,
+			);
+			path = NewNotesDataService;
+			sourceTree = "<group>";
+		};
+		184C21E61E11887A0013FB0C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				184C21EA1E1188CB0013FB0C /* ExtensionFile.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		184C21E71E1188880013FB0C /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				184C21E81E1188A30013FB0C /* EnumFile.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		18CF28E11E0E336000616321 /* NewNoteView */ = {
+			isa = PBXGroup;
+			children = (
+				18CF28E21E0E336000616321 /* View */,
+				18CF28E31E0E336000616321 /* ViewModel */,
+			);
+			path = NewNoteView;
+			sourceTree = "<group>";
+		};
+		18CF28E21E0E336000616321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CF28EB1E0E340600616321 /* NewNoteViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18CF28E31E0E336000616321 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				184C21E41E1017540013FB0C /* NewNoteVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18CF28E41E0E336000616321 /* NoteListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18CF28E51E0E336000616321 /* View */,
+				18CF28E61E0E336000616321 /* ViewModel */,
+			);
+			path = NoteListViewController;
+			sourceTree = "<group>";
+		};
+		18CF28E51E0E336000616321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CF28E71E0E33BD00616321 /* NoteListViewController.swift */,
+				DF70D19F1E10DF52003B4317 /* NotesListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18CF28E61E0E336000616321 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				184C21DE1E10125B0013FB0C /* NotesListVM.swift */,
+				184C21E01E1012710013FB0C /* NotesListDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18CF28F71E0E874100616321 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				18CF28F81E0E874100616321 /* View */,
+				18CF28F91E0E874100616321 /* ViewModel */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		18CF28F81E0E874100616321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CF28FA1E0E875B00616321 /* MapViewViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18CF28F91E0E874100616321 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF7B51C61E12500400E462BE /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B51C71E12501300E462BE /* StructFile.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183826BD1E0D7E47006C15BA /* Zohonote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183826D31E0D7E47006C15BA /* Build configuration list for PBXNativeTarget "Zohonote" */;
+			buildPhases = (
+				183826BA1E0D7E47006C15BA /* Sources */,
+				183826BB1E0D7E47006C15BA /* Frameworks */,
+				183826BC1E0D7E47006C15BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zohonote;
+			productName = Zohonote;
+			productReference = 183826BE1E0D7E47006C15BA /* Zohonote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183826B61E0D7E47006C15BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RajesSuku;
+				TargetAttributes = {
+					183826BD1E0D7E47006C15BA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TJLT9X4GT8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 183826B91E0D7E47006C15BA /* Build configuration list for PBXProject "Zohonote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183826B51E0D7E47006C15BA;
+			productRefGroup = 183826BF1E0D7E47006C15BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183826BD1E0D7E47006C15BA /* Zohonote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183826BC1E0D7E47006C15BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183826CF1E0D7E47006C15BA /* LaunchScreen.storyboard in Resources */,
+				183826CC1E0D7E47006C15BA /* Assets.xcassets in Resources */,
+				183826C71E0D7E47006C15BA /* Main.storyboard in Resources */,
+				18CF28F61E0E821E00616321 /* location_map_pin_light_green6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183826BA1E0D7E47006C15BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183826E21E0D90DE006C15BA /* NewNotebookViewController.swift in Sources */,
+				184C21EB1E1188CB0013FB0C /* ExtensionFile.swift in Sources */,
+				184C21D21E0FCB3D0013FB0C /* NewNoteBookdataService.swift in Sources */,
+				183826DD1E0D7F6D006C15BA /* DashBoardViewController.swift in Sources */,
+				DF70D1A01E10DF52003B4317 /* NotesListTableViewCell.swift in Sources */,
+				18CF28EC1E0E340600616321 /* NewNoteViewController.swift in Sources */,
+				184C21DF1E10125B0013FB0C /* NotesListVM.swift in Sources */,
+				184C21DD1E10096A0013FB0C /* NotesDataService.swift in Sources */,
+				184C21DA1E1001B40013FB0C /* NotebooksdashboardDelegate.swift in Sources */,
+				184C21D81E0FFB7E0013FB0C /* NotebooksDashboardModel.swift in Sources */,
+				183826CA1E0D7E47006C15BA /* Zohonote.xcdatamodeld in Sources */,
+				18CF28E81E0E33BD00616321 /* NoteListViewController.swift in Sources */,
+				184C21D61E0FF7430013FB0C /* NotebooksDashboardVM.swift in Sources */,
+				184C21CE1E0FB74A0013FB0C /* NewNoteBooksVMDelegate.swift in Sources */,
+				184C21D41E0FCFD00013FB0C /* Utility.swift in Sources */,
+				183826C21E0D7E47006C15BA /* AppDelegate.swift in Sources */,
+				184C21E11E1012710013FB0C /* NotesListDelegate.swift in Sources */,
+				18CF28FB1E0E875B00616321 /* MapViewViewController.swift in Sources */,
+				DF7B51C81E12501300E462BE /* StructFile.swift in Sources */,
+				DF70D1A21E115C10003B4317 /* UIBaseViewController.swift in Sources */,
+				184C21E51E1017540013FB0C /* NewNoteVM.swift in Sources */,
+				184C21CA1E0FB44B0013FB0C /* NewNotebooksVM.swift in Sources */,
+				184C21CC1E0FB6CD0013FB0C /* NewNoteBooksVM.swift in Sources */,
+				184C21E31E1015190013FB0C /* NewNoteModel.swift in Sources */,
+				184C21E91E1188A30013FB0C /* EnumFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		183826C51E0D7E47006C15BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183826C61E0D7E47006C15BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183826CD1E0D7E47006C15BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183826CE1E0D7E47006C15BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183826D11E0D7E47006C15BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183826D21E0D7E47006C15BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183826D41E0D7E47006C15BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TJLT9X4GT8;
+				INFOPLIST_FILE = Zohonote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Zohonote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		183826D51E0D7E47006C15BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TJLT9X4GT8;
+				INFOPLIST_FILE = Zohonote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Zohonote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183826B91E0D7E47006C15BA /* Build configuration list for PBXProject "Zohonote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183826D11E0D7E47006C15BA /* Debug */,
+				183826D21E0D7E47006C15BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183826D31E0D7E47006C15BA /* Build configuration list for PBXNativeTarget "Zohonote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183826D41E0D7E47006C15BA /* Debug */,
+				183826D51E0D7E47006C15BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183826C81E0D7E47006C15BA /* Zohonote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183826C91E0D7E47006C15BA /* Zohonote.xcdatamodel */,
+			);
+			currentVersion = 183826C91E0D7E47006C15BA /* Zohonote.xcdatamodel */;
+			path = Zohonote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 183826B61E0D7E47006C15BA /* Project object */;
+}
